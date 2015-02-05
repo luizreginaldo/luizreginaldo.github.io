@@ -1,0 +1,81 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-color: #1D1B17;
+	color: #D9D2BA;
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}
+div#distancia {
+    width:1px;
+    height:50%;
+    margin-bottom:-260px;
+    float:left;
+}
+div.geral 
+{
+    position: relative;
+    width: 960px;
+    height: 520px;
+    margin: 0 auto;
+    clear: left;  
+}
+div.header
+{
+	float: left;
+	position: relative;
+	width: 960px;
+	height: 175px;
+	z-index: 1;
+}
+h1,h2
+{
+	margin: 0;
+	padding: 0;
+}
+h1
+{
+	font-size: 60px;
+}
+h2
+{
+	font-size: 40px;
+	font-weight: 100;
+}
+ul#redes_sociais
+{
+	text-align: center;
+	padding-top: 15px;
+}
+ul#redes_sociais li
+{
+	display: inline-block;
+	*display: inline;
+	zoom: 1 ;
+	margin: 0 5px;
+}
+ul#redes_sociais li a
+{
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-decoration: none;
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+ul#redes_sociais li a:hover
+{
+	background-position: bottom left;
+}
+div#tagcloud
+{
+	float: left;
+	position: relative;
+	z-index: 0;
+	width: 960px; 
+	height: 345px;
+}
